@@ -1,6 +1,4 @@
-pandas
 requests
 beautifulsoup4
-sqlalchemy
-sqlite3
+pandas
 numpy
