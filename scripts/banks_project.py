@@ -1,4 +1,5 @@
 import requests
+import certifi
 from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
@@ -33,7 +34,9 @@ def log_progress(message):
 
 
 def extract(url, table_attribs):
-    html_page = requests.get(url).text
+    # Use certifi for SSL verification
+    html_page = requests.get(url, verify=certifi.where()).text
+    #html_page = requests.get(url).text
     data = BeautifulSoup(html_page, "html.parser")
     df = pd.DataFrame(columns = table_attribs)
     table = data.find_all("tbody")
