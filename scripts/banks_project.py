@@ -14,7 +14,7 @@ Table_Attributes_final = "Name", "MC_USD_Billion", "MC_GBP_Billion", "MC_EUR_Bil
 Output_CSV_Path = "./Largest_banks_data.csv"
 Database_name = "Banks.db"
 Table_name = "Largest_banks"
-csv_path = "./exchange_rate.csv"
+csv_path = "./data/exchange_rate.csv"
 
 # Code for ETL operations on Country-GDP data
 
