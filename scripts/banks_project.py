@@ -8,7 +8,7 @@ from datetime import datetime
 
 
 url = "https://web.archive.org/web/20230908091635 /https://en.wikipedia.org/wiki/List_of_largest_banks"
-Exchange_rate_CSV_path = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv"
+#Exchange_rate_CSV_path = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv"
 Table_Attributes = "Name", "MC_USD_Billion"
 Table_Attributes_final = "Name", "MC_USD_Billion", "MC_GBP_Billion", "MC_EUR_Billion", "MC_INR_Billion"
 Output_CSV_Path = "./Largest_banks_data.csv"
